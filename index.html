@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> (주)에스엔비엔지니어링 </title>
+   <!--favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://yw-snb.com/plugin/openGN5/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://yw-snb.com/plugin/openGN5/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://yw-snb.com/plugin/openGN5/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://yw-snb.com/plugin/openGN5/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://yw-snb.com/plugin/openGN5/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://yw-snb.com/plugin/openGN5/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--/favicon-->
+   
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- 부트스트랩 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+     <!-- jquery cdn -->
+     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- js -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- modal { -->
+		<div class = "modal_background"></div>
+        <div class = "modal_box">
+            <div class="modal_content">
+                <img src="images/logo_img.png" alt="logo_img">
+                <i class="far fa-times-circle"></i>
+                <form action="">
+                    <input type="text" placeholder="name">
+                    <input type="text" placeholder="email">
+                    <input type="text" placeholder="문의하기"><br />
+                    <input type="button" value="보내기">
+                </form>
+
+            </div>
+        </div> 
+        <!-- } modal -->
+
+        <!--nav bar-->
+        <div class="h_wrap">
+            <div class="header">
+                <h1><a href="index.html"><img src="images/logo_img.png" alt="yw_snb logo"></a></h1>
+                <div class="menubar">
+                    <div class="nav_menu">
+                        <a href="../content/content.html">회사소개</a>
+                        <a href="#">제품소개</a>
+                        <a href="#">특허/인증서</a>
+                        <a href="#">시공사례/실적</a>
+                        <a href="#">게시판</a>
+                        <a href="#">오시는길</a>
+                    </div>
+                    <a class="menu_icon" href="#"><i class="fa fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- main_slide { -->
+        <div class="main_slide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src = "images/main_banner1.jfif" alt="main banner1"></div>
+                    <div class="swiper-slide"><img src = "images/main_banner2.jfif" alt="main banner2"></div>
+                    <div class="swiper-slide"><img src = "images/main_banner3.jfif" alt="main banner3"></div>
+                    <div class="swiper-slide"><img src = "images/main_banner4.jfif" alt="main banner"></div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                        },
+                        autoplay: {
+                            delay: 3000,
+                        },
+                        loop: true,
+                        autoplayDisableOnInteraction: false,
+                        paginationClickable: true,
+
+                    });
+                    swiper.update();
+                </script>
+            </div>
+        </div>
+        <!-- main_slide { -->
+
+        <div class="content">
+            <section class="B_Area dw_1200px">
+                <div class="B_wrap">
+                    <img src="images/sub_logo.gif" alt="sub_logo image">
+                    <h2>Business</h2>
+                    <ul>
+                        <li><a href="#"><img src="images/main_company.jpg" alt="company banner"></a></li>
+                        <li><a href="#"><img src="images/main_portfolio.jpg" alt="business banner"></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="A_Area dw_1200px">
+                <div class="A_top">
+                    <img src="images/sub_logo.gif" alt="sub_logo image">
+                    <h2>Success and Business</h2>
+                    <p>(주)에스엔비엔지니어링은 <strong>" 좋은 사람, 좋은 상품, 좋은 기업이미지 "를 기업이념으로</strong></p>
+                    <p>생활폐기물 이송설비의 공법설계/기계제작/판매의 Total Service를 제공하고 있습니다.</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-2 m_bottom"><img src="images/circle1.png" alt="circle1"></div>
+                <div class="col-xs-12 col-sm-4 col-md-2 m_bottom"><img src="images/circle2.png" alt="circle2"></div>
+                <div class="col-xs-12 col-sm-4 col-md-2 m_bottom"><img src="images/circle3.png" alt="circle3"></div>
+                <div class="col-xs-12 col-sm-4 col-md-2 m_bottom"><img src="images/circle3.png" alt="circle3"></div>
+                <div class="col-xs-12 col-sm-4 col-md-2 m_bottom"><img src="images/circle3.png" alt="circle3"></div>
+                <div class="col-xs-12 col-sm-4 col-md-2 m_bottom"><img src="images/circle3.png" alt="circle3"></div>
+            </section>
+
+            <section class="B_Area dw_1200px">
+                <div class="B_wrap">
+                    <img src="images/sub_logo2.gif" alt="sub_logo image">
+                    <h2>악취, 불법투기 없는 깨끗한 도시환경 만들기</h2>
+                    <p><strong>신도시형 생활 폐기물 시스템</strong>은</p>
+                    <p>음식물 쓰레기를 투입구에 버리면 진공흡입기를 통해 관로를 따라 자동집하장으로 자동이송되는 방식입니다.</p>
+                    <ul>
+                        <li><a href="#"><img src="images/product_left.gif" alt="Product banner1"></a></li>
+                        <li><a href="#"><img src="images/product_right.gif" alt="Product banner2"></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="N_Area">
+                <div class="N_wrap dw_1200px">
+                    <div class="N_contents">
+                        <ul>
+                            <li>
+                               <p>Notice</p>
+                               <p>(주)에스엔비엔지니어링</p>
+                               <p>게시판입니다.</p>
+                               <div class="go_btn cursor_pointer"><a href="./board/notice.html">바로가기</a></div>
+                            </li>
+
+                            <li>
+                                <p>Certificate</p>
+                                <p>(주)에스엔비엔지니어링</p>
+                                <p>특허/인증서입니다.</p>
+                                <div class="go_btn contact_us_btn cursor_pointer"><a href="./board/notice.html">바로가기</a></div>
+                             </li>
+
+                             <li>
+                                <p>Contact us</p>
+                                <p>(주)에스엔비엔지니어링 제품문의를</p>
+                                <p>메일로 답변드립니다.</p>
+                                <div class="go_btn cursor_pointer"><a href="content/map.html">문의하기</a></div>
+                             </li>      
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <footer>
+
+            <div class="ft_wrap">
+                <div class="f_top">
+                    <ul>
+                        <li class="col-xs-4"><a href="content/content.html">회사소개</a></li>
+                        <li class="col-xs-4"><a href="">서비스이용약관</a></li>
+                        <li class="col-xs-4"><a href="">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+
+                <div class="f_bottom">
+
+                    <div class="f_text">
+                        <div class="f_logo col-xs-12 col-sm-2 col-md-2"><a href="#"><img src="images/logo_img.png" alt="logo_img"></a></div>
+                        
+                        <ul class="col-xs-12 col-sm-7 col-md-7 ft_name">
+                            <li><strong>회사명</strong>:(주)예원INT <strong>주소 </strong>: 경기도 광명시 하안로228 광명시범공단 3동 701호</li>
+                            <li><strong>대표</strong>: 서은교<strong> 사업자 등록번호</strong>: 287-86-00974</li>
+                            <li><strong>전화</strong>: 02-2201-0120 <strong>팩스</strong>: 02-2201-0122<strong>통신판매업신고번호 개인정보 보호책임자</strong>: 김영민</li>
+                            <li>Copyright © 2018 (주)예원INT. All Rights Reserved.</li>
+                        </ul>
+
+                        <ul class="col-xs-12 col-sm-3 col-md-3">
+                            <li>고객센터</li>
+                            <li>031-292-8952</li>
+                            <li>월-금 AM 9:00 - PM 17:00</li>
+                            <li>점심시간 PM 12:00 - PM 13:00</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+       
+        <aside class="cursor_pointer">
+            <div class="aside_wrap">
+                <div class="top_btn">Top</div>
+            </div>
+
+        </aside>
+    
+    </div>
+
+</body>
+
+</html>
