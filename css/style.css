@@ -120,6 +120,7 @@ table th, td { padding: 10px; color:#333; text-align: center;}
 .txt_c { text-align: center; }
 .wrap .c_bottom { width: 100%; overflow: hidden; }
 .wrap .c_middle {  position: relative; }
+.wrap .c_middle img { margin-top: 3%; }
 .fa-heart {
     display: inline-block;
     width: 16px;
