@@ -36,7 +36,7 @@ ul, li, p { margin: 0; padding: 0; }
 table { width:100%; border-collapse: collapse;}
 table th, td { padding: 7px; color:#333;}
 .cursor_pointer { cursor: pointer; }
-.dw_1200px { width: 100%; max-width: 1200px; margin: 0 auto; text-align: center; }
+.dw_1200px { width: 100%; max-width: 1200px; margin: 0 auto; text-align: center; overflow: hidden; }
 .dw_100p { width: 100%; margin: 0 auto; text-align: center; }
 section h2 { font-size: 32px; color: #08335e; margin-top: 1%; margin-bottom: 5%; font-weight: 600; }
 .nav_fix { 
@@ -52,7 +52,7 @@ section h2 { font-size: 32px; color: #08335e; margin-top: 1%; margin-bottom: 5%;
 .P_btn i { float: right; color: #b33a00;}
 .P_btn p { float: left; font-weight: 600; margin-left: 10px; color: black; }
 .go_btn
-{ width: 90px; font-size:14px;  background-color: #08335e; padding: 2%; font-weight: 600; margin: 0 auto;}
+{ width: 90px; font-size:14px;  background-color: #08335e; padding: 2%; font-weight: 600; margin: 0 auto; border-radius: 20px; line-height: 20px; }
 .go_btn a { color: white; }
 .cursor_pointer { cursor: pointer; }
 .content p { word-break: keep-all; }
